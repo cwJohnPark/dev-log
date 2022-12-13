@@ -99,7 +99,7 @@ static class ClientBean {
 
 ObjectFactory<interface>
 
-- 예전 1.0.2 에 만들어짐
+- 스프링 초기 버전인 1.0.2 부터 만들어짐
 - `T getObject()` 메서드 하나만을 제공
 
 ObjectProvider<interface>
@@ -150,9 +150,11 @@ interface Provider<T> {
 - 순환 참조 피해가기
 - 스코프를 추상화하여 하위타입의 스코프의 인스턴스를 lookup 할 수 있음
 
-> 실무에서는 주로 어떤것이 많이 사용될까?</br>
-  실무에서는 스프링이 제공하는 Provider를 사용한다.</br>
-  스프링이 사실상의 자바 웹 프레임워크의 표준(de facto)이다. </br>
-  JSR 은 자바 표준이지만, 별도 라이브러리 의존이 필요하다.</br>
+### 실무에서는 주로 어떤것이 많이 사용될까?
+실무에서는 스프링이 제공하는 Provider를 사용한다.
+스프링이 사실상의 자바 웹 프레임워크의 표준(de facto)이다.
+JSR 은 자바 표준이지만, 별도 라이브러리 의존이 필요하다.
+	
 ---
+	
 [스프링 핵심 원리 - 기본편, <김영한>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
