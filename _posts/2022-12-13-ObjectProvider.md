@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "매일 개발 일지 템플릿"
+title: "ObjectProvider를 사용한 싱글톤 빈의 프로토타입 빈 참조"
 date: 2022-12-13
 category: Spring
 tags: [spring, java]
